@@ -1,4 +1,4 @@
-#include "vec_add.cuh"
+#include "vector_add.cuh"
 
 __global__ void vector_add_kernel(float* A, float * B, float* C, int vectorLength){
     int workIndex = blockIdx.x * blockDim.x + threadIdx.x;

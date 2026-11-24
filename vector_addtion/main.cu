@@ -1,5 +1,5 @@
 #include <iostream>
-#include "vec_add.cuh"
+#include "vector_add.cuh"
 
 int main(int argc, char** argv) {
     int vectorLength = 1024;
